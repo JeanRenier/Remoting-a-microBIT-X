@@ -1,0 +1,500 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L remote3-rescue:R_Small R403
+U 1 1 5DD51F39
+P 6050 4150
+F 0 "R403" H 6080 4170 50  0000 L CNN
+F 1 "100" H 6080 4110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6050 4150 50  0001 C CNN
+F 3 "" H 6050 4150 50  0001 C CNN
+	1    6050 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L remote3-rescue:R_Small R401
+U 1 1 5DD51F40
+P 4800 4150
+F 0 "R401" H 4830 4170 50  0000 L CNN
+F 1 "10k" H 4830 4110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4800 4150 50  0001 C CNN
+F 3 "" H 4800 4150 50  0001 C CNN
+	1    4800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:C_Small C401
+U 1 1 5DD51F47
+P 4400 4150
+AR Path="/5DD51F47" Ref="C401"  Part="1" 
+AR Path="/5DD51B4A/5DD51F47" Ref="C401"  Part="1" 
+F 0 "C401" H 4410 4220 50  0000 L CNN
+F 1 "100n" H 4410 4070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4400 4150 50  0001 C CNN
+F 3 "" H 4400 4150 50  0001 C CNN
+	1    4400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 5DD51F5A
+P 4400 4350
+F 0 "#PWR0145" H 4400 4100 50  0001 C CNN
+F 1 "GND" H 4400 4200 50  0000 C CNN
+F 2 "" H 4400 4350 50  0001 C CNN
+F 3 "" H 4400 4350 50  0001 C CNN
+	1    4400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:D_ALT D402
+U 1 1 5DD51F83
+P 5350 4150
+F 0 "D402" H 5350 4250 50  0000 C CNN
+F 1 "BAT85" H 5350 4050 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5350 4150 50  0001 C CNN
+F 3 "" H 5350 4150 50  0001 C CNN
+	1    5350 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 5DD52208
+P 4800 4350
+F 0 "#PWR0146" H 4800 4100 50  0001 C CNN
+F 1 "GND" H 4800 4200 50  0000 C CNN
+F 2 "" H 4800 4350 50  0001 C CNN
+F 3 "" H 4800 4350 50  0001 C CNN
+	1    4800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:D_ALT D401
+U 1 1 5DD5224B
+P 5050 3950
+F 0 "D401" H 5050 4050 50  0000 C CNN
+F 1 "BAT85" H 5050 3850 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5050 3950 50  0001 C CNN
+F 3 "" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	1    0    0    1   
+$EndComp
+$Comp
+L remote3-rescue:Transformer_1P_1S T401
+U 1 1 5DD5231A
+P 6900 3600
+F 0 "T401" H 6900 3850 50  0000 C CNN
+F 1 "FT-37-43 " H 6900 3300 50  0000 C CNN
+F 2 "Inductors_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" H 6900 3600 50  0001 C CNN
+F 3 "" H 6900 3600 50  0001 C CNN
+	1    6900 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 5DD523DA
+P 5350 4350
+F 0 "#PWR0147" H 5350 4100 50  0001 C CNN
+F 1 "GND" H 5350 4200 50  0000 C CNN
+F 2 "" H 5350 4350 50  0001 C CNN
+F 3 "" H 5350 4350 50  0001 C CNN
+	1    5350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 5DD52409
+P 6400 3800
+F 0 "#PWR0148" H 6400 3550 50  0001 C CNN
+F 1 "GND" H 6400 3650 50  0000 C CNN
+F 2 "" H 6400 3800 50  0001 C CNN
+F 3 "" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:C_Small C402
+U 1 1 5DD5250A
+P 5600 3950
+AR Path="/5DD5250A" Ref="C402"  Part="1" 
+AR Path="/5DD51B4A/5DD5250A" Ref="C402"  Part="1" 
+F 0 "C402" H 5610 4020 50  0000 L CNN
+F 1 "100n" H 5610 3870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L remote3-rescue:R_Small R402
+U 1 1 5DD52658
+P 5850 4150
+F 0 "R402" H 5880 4170 50  0000 L CNN
+F 1 "100" H 5880 4110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5850 4150 50  0001 C CNN
+F 3 "" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 5DD527E4
+P 5850 4350
+F 0 "#PWR0149" H 5850 4100 50  0001 C CNN
+F 1 "GND" H 5850 4200 50  0000 C CNN
+F 2 "" H 5850 4350 50  0001 C CNN
+F 3 "" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 5DD5281F
+P 6050 4350
+F 0 "#PWR0150" H 6050 4100 50  0001 C CNN
+F 1 "GND" H 6050 4200 50  0000 C CNN
+F 2 "" H 6050 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+	1    6050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:Conn_01x02 J402
+U 1 1 5DD52902
+P 7700 3400
+F 0 "J402" H 7700 3500 50  0000 C CNN
+F 1 "out" H 7800 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7700 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:Conn_01x02 J403
+U 1 1 5DD529BB
+P 7700 3700
+F 0 "J403" H 7700 3800 50  0000 C CNN
+F 1 "in" H 7800 3650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7700 3700 50  0001 C CNN
+F 3 "" H 7700 3700 50  0001 C CNN
+	1    7700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0151
+U 1 1 5DD52CFB
+P 4150 5100
+F 0 "#PWR0151" H 4150 4850 50  0001 C CNN
+F 1 "GND" H 4150 4950 50  0000 C CNN
+F 2 "" H 4150 5100 50  0001 C CNN
+F 3 "" H 4150 5100 50  0001 C CNN
+	1    4150 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 3300 0    60   ~ 0
+prim. 1 turn\nsec. 22 turns
+$Comp
+L remote3-rescue:Transformer_1P_1S T402
+U 1 1 5DE5FAC4
+P 6900 4500
+F 0 "T402" H 6900 4750 50  0000 C CNN
+F 1 "FT-37-43 " H 6900 4200 50  0000 C CNN
+F 2 "Inductors_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" H 6900 4500 50  0001 C CNN
+F 3 "" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	-1   0    0    -1  
+$EndComp
+Text Notes 6600 4200 0    60   ~ 0
+prim. 22 turns\nsec. 1 turn
+Wire Wire Line
+	7300 3400 7350 3400
+Wire Wire Line
+	7300 3800 7500 3800
+Wire Wire Line
+	7500 3500 7450 3500
+Wire Wire Line
+	7450 3500 7450 3700
+Wire Wire Line
+	7450 3700 7500 3700
+Wire Wire Line
+	6400 3800 6500 3800
+Wire Wire Line
+	5700 3950 5850 3950
+Wire Wire Line
+	5850 4050 5850 3950
+Connection ~ 5850 3950
+Wire Wire Line
+	6050 4050 6050 3950
+Connection ~ 6050 3950
+Wire Wire Line
+	5850 4350 5850 4250
+Wire Wire Line
+	6050 4350 6050 4250
+Wire Wire Line
+	5350 4350 5350 4300
+Wire Wire Line
+	5200 3950 5350 3950
+Wire Wire Line
+	5350 4000 5350 3950
+Connection ~ 5350 3950
+Wire Wire Line
+	4200 3950 4400 3950
+Wire Wire Line
+	4400 4050 4400 3950
+Wire Wire Line
+	4800 4050 4800 3950
+Connection ~ 4800 3950
+Wire Wire Line
+	4800 4350 4800 4250
+Wire Wire Line
+	4400 4350 4400 4250
+Wire Wire Line
+	7350 3400 7350 4300
+Wire Wire Line
+	7350 4300 7300 4300
+Connection ~ 7350 3400
+Wire Wire Line
+	7450 4700 7300 4700
+Connection ~ 7450 3700
+$Comp
+L remote3-rescue:R_Small R406
+U 1 1 5DE602F5
+P 6050 4900
+F 0 "R406" H 6080 4920 50  0000 L CNN
+F 1 "100" H 6080 4860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6050 4900 50  0001 C CNN
+F 3 "" H 6050 4900 50  0001 C CNN
+	1    6050 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L remote3-rescue:R_Small R404
+U 1 1 5DE602FB
+P 4800 4900
+F 0 "R404" H 4830 4920 50  0000 L CNN
+F 1 "10k" H 4830 4860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4800 4900 50  0001 C CNN
+F 3 "" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:C_Small C403
+U 1 1 5DE60301
+P 4400 4900
+AR Path="/5DE60301" Ref="C403"  Part="1" 
+AR Path="/5DD51B4A/5DE60301" Ref="C403"  Part="1" 
+F 0 "C403" H 4410 4970 50  0000 L CNN
+F 1 "100n" H 4410 4820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4400 4900 50  0001 C CNN
+F 3 "" H 4400 4900 50  0001 C CNN
+	1    4400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 5DE60307
+P 4400 5100
+F 0 "#PWR0152" H 4400 4850 50  0001 C CNN
+F 1 "GND" H 4400 4950 50  0000 C CNN
+F 2 "" H 4400 5100 50  0001 C CNN
+F 3 "" H 4400 5100 50  0001 C CNN
+	1    4400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:D_ALT D404
+U 1 1 5DE6030D
+P 5350 4900
+F 0 "D404" H 5350 5000 50  0000 C CNN
+F 1 "BAT85" H 5350 4800 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5350 4900 50  0001 C CNN
+F 3 "" H 5350 4900 50  0001 C CNN
+	1    5350 4900
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 5DE60313
+P 4800 5100
+F 0 "#PWR0153" H 4800 4850 50  0001 C CNN
+F 1 "GND" H 4800 4950 50  0000 C CNN
+F 2 "" H 4800 5100 50  0001 C CNN
+F 3 "" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:D_ALT D403
+U 1 1 5DE60319
+P 5050 4700
+F 0 "D403" H 5050 4800 50  0000 C CNN
+F 1 "BAT85" H 5050 4600 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5050 4700 50  0001 C CNN
+F 3 "" H 5050 4700 50  0001 C CNN
+	1    5050 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 5DE6031F
+P 5350 5100
+F 0 "#PWR0154" H 5350 4850 50  0001 C CNN
+F 1 "GND" H 5350 4950 50  0000 C CNN
+F 2 "" H 5350 5100 50  0001 C CNN
+F 3 "" H 5350 5100 50  0001 C CNN
+	1    5350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L remote3-rescue:C_Small C404
+U 1 1 5DE60325
+P 5600 4700
+AR Path="/5DE60325" Ref="C404"  Part="1" 
+AR Path="/5DD51B4A/5DE60325" Ref="C404"  Part="1" 
+F 0 "C404" H 5610 4770 50  0000 L CNN
+F 1 "100n" H 5610 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5600 4700 50  0001 C CNN
+F 3 "" H 5600 4700 50  0001 C CNN
+	1    5600 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L remote3-rescue:R_Small R405
+U 1 1 5DE60331
+P 5850 4900
+F 0 "R405" H 5880 4920 50  0000 L CNN
+F 1 "100" H 5880 4860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5850 4900 50  0001 C CNN
+F 3 "" H 5850 4900 50  0001 C CNN
+	1    5850 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 5DE60337
+P 5850 5100
+F 0 "#PWR0155" H 5850 4850 50  0001 C CNN
+F 1 "GND" H 5850 4950 50  0000 C CNN
+F 2 "" H 5850 5100 50  0001 C CNN
+F 3 "" H 5850 5100 50  0001 C CNN
+	1    5850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 5DE6033D
+P 6050 5100
+F 0 "#PWR0156" H 6050 4850 50  0001 C CNN
+F 1 "GND" H 6050 4950 50  0000 C CNN
+F 2 "" H 6050 5100 50  0001 C CNN
+F 3 "" H 6050 5100 50  0001 C CNN
+	1    6050 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4700 5850 4700
+Wire Wire Line
+	5850 4800 5850 4700
+Connection ~ 5850 4700
+Wire Wire Line
+	6050 4800 6050 4700
+Connection ~ 6050 4700
+Wire Wire Line
+	5850 5100 5850 5000
+Wire Wire Line
+	6050 5100 6050 5000
+Wire Wire Line
+	5350 5100 5350 5050
+Wire Wire Line
+	5200 4700 5350 4700
+Wire Wire Line
+	5350 4750 5350 4700
+Connection ~ 5350 4700
+Wire Wire Line
+	4400 4700 4400 4800
+Wire Wire Line
+	4800 4800 4800 4700
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 5100 4800 5000
+Wire Wire Line
+	4400 5100 4400 5000
+Wire Wire Line
+	6200 3400 6200 3950
+Wire Wire Line
+	6200 4300 6500 4300
+Wire Wire Line
+	6200 3400 6500 3400
+Connection ~ 6200 3950
+$Comp
+L remote3-rescue:Conn_01x03 J401
+U 1 1 5DE60D99
+P 3900 4700
+F 0 "J401" H 3900 4900 50  0000 C CNN
+F 1 "SWR" H 3900 4500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3900 4700 50  0001 C CNN
+F 3 "" H 3900 4700 50  0001 C CNN
+	1    3900 4700
+	-1   0    0    -1  
+$EndComp
+Text Notes 3800 4750 2    60   ~ 0
+fwd
+Text Notes 3800 4660 2    60   ~ 0
+rfl
+Text Notes 3800 4850 2    60   ~ 0
+gnd
+Connection ~ 4400 4700
+Wire Wire Line
+	4200 4600 4100 4600
+Wire Wire Line
+	4200 3950 4200 4600
+Connection ~ 4400 3950
+Wire Wire Line
+	4100 4700 4400 4700
+Text Notes 4100 3500 0    98   ~ 0
+STOCKTON SWR BRIDGE
+Wire Wire Line
+	4100 4800 4150 4800
+Wire Wire Line
+	4150 4800 4150 5100
+Wire Wire Line
+	5850 3950 6050 3950
+Wire Wire Line
+	6050 3950 6200 3950
+Wire Wire Line
+	5350 3950 5500 3950
+Wire Wire Line
+	4800 3950 4900 3950
+Wire Wire Line
+	7350 3400 7500 3400
+Wire Wire Line
+	7450 3700 7450 4700
+Wire Wire Line
+	5850 4700 6050 4700
+Wire Wire Line
+	6050 4700 6500 4700
+Wire Wire Line
+	5350 4700 5500 4700
+Wire Wire Line
+	4800 4700 4900 4700
+Wire Wire Line
+	6200 3950 6200 4300
+Wire Wire Line
+	4400 4700 4800 4700
+Wire Wire Line
+	4400 3950 4800 3950
+$EndSCHEMATC
